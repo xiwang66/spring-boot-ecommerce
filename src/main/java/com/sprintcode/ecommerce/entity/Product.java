@@ -1,4 +1,4 @@
-package com.luv2code.ecommerce.entity;
+package com.sprintcode.ecommerce.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
