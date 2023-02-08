@@ -26,6 +26,9 @@ public class SecurityConfiguration {
 
         http.cors();
 
+        // disable CSRF since we dont use Cookies for session tracking
+        http.csrf().disable();
+
         return http.build();
     }
 }
